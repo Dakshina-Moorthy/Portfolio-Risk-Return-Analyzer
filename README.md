@@ -1,4 +1,4 @@
-# 📊 Portfolio Risk \& Return Analyzer — NSE Stocks
+#  Portfolio Risk & Return Analyzer — NSE Stocks
 
 > A fully formula-driven Excel financial model for analysing risk, return, and portfolio performance of NSE-listed equities.
 
