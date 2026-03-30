@@ -2,7 +2,7 @@
 
 > A fully formula-driven Excel financial model for analysing risk, return, and portfolio performance of NSE-listed equities.
 
-\---
+\
 
 ## What the Model Does
 
@@ -16,7 +16,7 @@ It reflects a simplified version of real-world portfolio analysis used in invest
 
 The model structure mirrors basic portfolio analysis frameworks used in entry-level roles in investment advisory and wealth management.
 
-\---
+\
 
 ## Sheet-by-Sheet Structure
 
@@ -27,7 +27,7 @@ The model structure mirrors basic portfolio analysis frameworks used in entry-le
 |**Metrics**|Per-stock risk-return statistics (annualised)|
 |**Portfolio**|Weighted portfolio aggregation, Sharpe Ratio, and charts|
 
-\---
+\
 
 ## How Portfolio Return is Calculated
 
@@ -45,7 +45,7 @@ Implemented in Excel as:
 
 where `B4:B7` = stock weights and `C4:C7` = annualised returns linked from the Metrics sheet.
 
-\---
+\
 
 ## How Portfolio Risk is Calculated
 
@@ -63,7 +63,7 @@ Implemented in Excel as:
 
 > ⚠️ \\\*\\\*Note for advanced users:\\\*\\\* This simplified approach ignores cross-stock correlations. A full covariance matrix approach (using `MMULT`) would produce a more precise portfolio risk figure. This simplified version is intentionally used here for clarity and interpretability at a student level.
 
-\---
+\
 
 ## Key Metrics Explained
 
@@ -76,7 +76,7 @@ Implemented in Excel as:
 
 A **Sharpe Ratio > 1.0** is generally considered good; above 2.0 is excellent.
 
-\---
+\
 
 ## Colour Coding Convention (Industry Standard)
 
@@ -87,7 +87,7 @@ A **Sharpe Ratio > 1.0** is generally considered good; above 2.0 is excellent.
 |🟢 **Green text**|Values linked from another sheet|
 |🟡 **Yellow background**|Key assumptions requiring attention|
 
-\---
+\
 
 ## Insights a User Can Derive
 
@@ -98,11 +98,8 @@ A **Sharpe Ratio > 1.0** is generally considered good; above 2.0 is excellent.
 5. **What happens if I change the weights?** → Edit the blue cells in `Portfolio!B4:B7` — all metrics update instantly.
 6. **Which stock had the worst single-day loss?** → Min Daily Return on the Metrics sheet.
 
-\---
-
-
-
-\## Key Findings
+\
+## Key Findings
 
 
 
@@ -114,17 +111,17 @@ A **Sharpe Ratio > 1.0** is generally considered good; above 2.0 is excellent.
 
 \- Portfolio performance is highly sensitive to asset allocation, highlighting the critical role of weight optimization in investment decision-making.
 
-\---
+\
 
-\## 👤 Investor Suitability
+## Investor Suitability
 
 
 
 This portfolio framework is suitable for investors seeking a balance between risk and return, particularly moderate-risk investors. By adjusting asset weights, the model can be adapted for conservative (low volatility, stable returns) or aggressive (higher return, higher risk) investment strategies based on individual financial goals and risk tolerance.
 
-\---
+\
 
-\## Future Improvements
+## Future Improvements
 
 
 
@@ -136,7 +133,7 @@ This portfolio framework is suitable for investors seeking a balance between ris
 
 \- Expand to multi-asset portfolios including debt and hybrid instruments
 
-\---
+\
 
 ## How to Customise
 
@@ -145,7 +142,7 @@ This portfolio framework is suitable for investors seeking a balance between ris
 * **Replace with real data:** Paste actual NSE closing prices into the Data sheet (`B3:E103`) — all formulas update automatically.
 * **Add more stocks:** Extend the model by adding columns in Data and Returns, then adding rows in the Portfolio table.
 
-\---
+\
 
 ## Tools \& Skills Demonstrated
 
@@ -159,13 +156,13 @@ This portfolio framework is suitable for investors seeking a balance between ris
 * Portfolio construction and asset allocation analysis
 * Application of financial theory (risk-return tradeoff, diversification, asset allocation) in practical modelling
 
-\---
+\
 
 ## Project Context
 
 Built as a practical financial modelling project demonstrating portfolio construction, risk analysis, and investment decision-making using real market data.
 
-\---
+\
 
 *Model built with Excel | Data: Historical price data sourced from NSE Website | Last updated: March 2026*
 
